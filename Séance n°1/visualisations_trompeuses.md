@@ -1,6 +1,6 @@
 # Exemples de visualisations trompeuses
 
-Ces trois visualisations montrent des erreurs classiques de représentation graphique.  
+Ces trois visualisations montrent des erreurs de représentation graphique.  
 Les données affichées peuvent être exactes, mais leur **mise en forme modifie fortement la perception du lecteur**.
 
 > Important : une visualisation trompeuse n'implique pas nécessairement une volonté de manipuler. Le problème peut également venir d'une erreur de conception ou d'un mauvais choix graphique.
