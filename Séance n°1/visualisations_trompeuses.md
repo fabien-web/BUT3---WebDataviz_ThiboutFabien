@@ -13,7 +13,7 @@ Les données affichées peuvent être exactes, mais leur **mise en forme modifie
 
 ### Ce qui ne va pas
 
-Le principal problème est que **la position verticale des points ne correspond pas aux valeurs indiquées**.
+Le problème est que **la position verticale des points ne correspond pas aux valeurs indiquées**.
 
 Le cas le plus évident est celui de novembre :
 
@@ -70,11 +70,9 @@ Le graphique demande donc au lecteur de lutter contre une convention visuelle tr
 
 Le problème principal se situe sur **l'axe horizontal** : les dates ne sont pas placées dans l'ordre chronologique.
 
-On peut notamment lire :
+On peut lire :
 
 `28 Apr → 27 Apr → 29 Apr → 01 May → 30 Apr → 06 May → 04 May → 05 May → 25 Apr → 02 May → 07 May → 26 Apr → 03 May → 08 May → 09 May`
-
-Il ne s'agit donc pas d'une véritable série temporelle ordonnée.
 
 Pourtant, le texte du graphique indique qu'il représente le nombre de cas **"over time"**, ce qui conduit naturellement le lecteur à interpréter l'axe de gauche à droite comme une progression temporelle.
 
