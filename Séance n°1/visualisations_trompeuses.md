@@ -33,15 +33,6 @@ Le lecteur interprète généralement la hauteur des points avant de lire préci
 
 L'axe vertical est également limité à environ **8 %–10 %**. Ce choix n'est pas forcément incorrect pour une courbe, mais il **accentue visuellement les petites variations** et exige donc une représentation particulièrement rigoureuse.
 
-### Comment corriger le graphique
-
-- Positionner chaque point exactement selon sa valeur.
-- Conserver une échelle régulière et explicitement graduée.
-- Vérifier que **8,6 % est bien représenté sous 8,8 % et 9,0 %**.
-- Éventuellement afficher une plage plus large si l'objectif est de donner davantage de contexte.
-
-**Type d'erreur :** incohérence entre les données et leur position graphique.
-
 ---
 
 ## 2. Reuters — *Gun deaths in Florida*
@@ -68,14 +59,6 @@ Visuellement, une courbe qui descend est généralement interprétée comme une 
 Par exemple, une valeur proche de 500 avant cette période est suivie de valeurs dépassant 700 puis 800. Comme l'axe est inversé, cette hausse numérique apparaît graphiquement comme une chute.
 
 Le graphique demande donc au lecteur de **lutter contre une convention visuelle très forte**.
-
-### Comment corriger le graphique
-
-- Mettre **0 en bas** de l'axe vertical.
-- Faire croître les valeurs vers le haut.
-- Conserver ensuite exactement les mêmes données et annotations.
-
-La tendance réelle deviendrait immédiatement plus intuitive : **plus la courbe monte, plus le nombre de morts est élevé**.
 
 **Type d'erreur :** axe Y inversé / codage visuel contre-intuitif.
 
