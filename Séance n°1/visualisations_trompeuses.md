@@ -58,7 +58,8 @@ Visuellement, une courbe qui descend est généralement interprétée comme une 
 
 Par exemple, une valeur proche de 500 avant cette période est suivie de valeurs dépassant 700 puis 800. Comme l'axe est inversé, cette hausse numérique apparaît graphiquement comme une chute.
 
-Le graphique demande donc au lecteur de **lutter contre une convention visuelle très forte**.
+Le graphique demande donc au lecteur de lutter contre une convention visuelle très forte.
+
 ---
 
 ## 3. Georgia Department of Public Health — cas de COVID-19
