@@ -59,9 +59,6 @@ Visuellement, une courbe qui descend est généralement interprétée comme une 
 Par exemple, une valeur proche de 500 avant cette période est suivie de valeurs dépassant 700 puis 800. Comme l'axe est inversé, cette hausse numérique apparaît graphiquement comme une chute.
 
 Le graphique demande donc au lecteur de **lutter contre une convention visuelle très forte**.
-
-**Type d'erreur :** axe Y inversé / codage visuel contre-intuitif.
-
 ---
 
 ## 3. Georgia Department of Public Health — cas de COVID-19
@@ -92,32 +89,4 @@ Le lecteur peut donc conclure à une amélioration de la situation sanitaire sim
 
 Le grand nombre de séries et de couleurs rend en outre l'ordre des dates moins visible, ce qui facilite la mauvaise interprétation.
 
-### Comment corriger le graphique
 
-Il faut classer l'axe X strictement par date :
-
-`25 Apr → 26 Apr → 27 Apr → 28 Apr → 29 Apr → 30 Apr → 01 May → 02 May → 03 May → 04 May → 05 May → 06 May → 07 May → 08 May → 09 May`
-
-On pourrait ensuite comparer réellement l'évolution des différents comtés au cours du temps.
-
-**Type d'erreur :** axe temporel non chronologique.
-
----
-
-## Synthèse
-
-| Visualisation | Problème principal | Effet sur la perception |
-|---|---|---|
-| Fox News — chômage | Points mal positionnés par rapport aux valeurs | Minimise visuellement la baisse du chômage |
-| Reuters — morts par armes à feu | Axe Y inversé | Une hausse des décès ressemble à une baisse |
-| Georgia COVID-19 | Dates dans le désordre | Crée artificiellement une tendance décroissante |
-
-## Conclusion
-
-Ces trois exemples illustrent trois règles fondamentales de la visualisation de données :
-
-1. **La position graphique doit correspondre exactement aux valeurs.**
-2. **Les axes doivent suivre des conventions compréhensibles et explicites.**
-3. **Une série temporelle doit être présentée dans l'ordre chronologique.**
-
-Une visualisation peut afficher des chiffres corrects tout en transmettant un message visuel faux ou fortement biaisé.
