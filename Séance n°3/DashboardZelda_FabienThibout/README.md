@@ -12,7 +12,7 @@ Projet de datavisualisation réalisé avec **Power BI** dans le cadre du BUT3 We
 - `FOND_POWER_BI.png` : fond graphique personnalisé inspiré de l'univers Zelda.
 - `DONNEES_NINTENDO_ZELDA.csv` : jeu de données utilisé pour les visualisations.
 
-## Sources des données
+## Sources des données (récoltées 'manuellement')
 
 - **Nintendo IR** : ventes cumulées des jeux Nintendo Switch (au 30/06/2026).
 - **Metacritic** : notes attribuées par la critique aux différents jeux.
